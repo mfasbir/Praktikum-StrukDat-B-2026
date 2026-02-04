@@ -1,0 +1,10 @@
+angka = [10, 20, 30, 40, 50]
+angka.append(60)
+angka.remove(20)
+tertinggi = max(angka)
+terendah = min(angka)
+print("Angka Tertinggi:", tertinggi)
+print("Angka Terendah:", terendah)
+rata_rata = sum(angka) / len(angka)
+print("Rata-rata:", rata_rata)
+print("Isi list terakhir:", angka)
